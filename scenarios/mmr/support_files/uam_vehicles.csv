@@ -1,0 +1,3 @@
+vehicle_type,vehicleperstation,starttime,endtime,range,capacity,cruisespeed,verticalspeed,boardingtime,deboardingtime,turnaroundtime
+Volocity,2,0:00:00,24:00:00,35000,2,90,10,20,20,60
+Joby S4,1,0:00:00,24:00:00,241402,5,240,10,20,20,120

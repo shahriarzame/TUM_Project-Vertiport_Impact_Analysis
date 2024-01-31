@@ -82,7 +82,7 @@ public class RunCreateUAMRoutedScenario {
 	private static double uamLinkCapacity = -1;
 
 	public static void main(String[] args) {
-		System.out.println("ARGS: config.xml* uam-stations.csv* flight-nodes.csv* flight-links.csv* uam-vehicles.csv");
+		System.out.println("ARGS: config.xml* uam-OBUAM_stations_op.csv* flight-nodes.csv* flight-links.csv* uam-uam_vehicles_op.csv");
 		System.out.println("(* required)");
 
 		// ARGS
