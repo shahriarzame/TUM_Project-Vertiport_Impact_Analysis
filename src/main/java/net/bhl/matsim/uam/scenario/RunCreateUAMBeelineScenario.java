@@ -9,7 +9,7 @@ package net.bhl.matsim.uam.scenario;
  */
 public class RunCreateUAMBeelineScenario {
 	public static void main(String[] args) {
-		System.out.println("ARGS: config.xml* uam-OBUAM_stations_op.csv* uam-link-freespeed* uam-link-capacity* uam-uam_vehicles_op.csv");
+		System.out.println("ARGS: config.xml* uam-OBUAM_stations_5min.csv* uam-link-freespeed* uam-link-capacity* uam-uam_vehicles_op_5min.csv");
 		System.out.println("(* required)");
 
 		// ARGS
