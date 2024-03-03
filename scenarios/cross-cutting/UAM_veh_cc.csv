@@ -1,0 +1,2 @@
+vehicle_type,vehicleperstation,starttime,endtime,range,capacity,cruisespeed,verticalspeed,boardingtime,deboardingtime,turnaroundtime,maximumCharge,energyConsumptionHorizontal,energyConsumptionVertical
+eVTOL_default,50,0:00:00,30:00:00,999999,4,100,10,60,60,60,0,0,0
