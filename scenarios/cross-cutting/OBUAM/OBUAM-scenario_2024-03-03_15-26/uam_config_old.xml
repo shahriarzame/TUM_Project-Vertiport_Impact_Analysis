@@ -39,12 +39,12 @@
 		<!-- Default=0. First Iteration of a simulation. -->
 		<param name="firstIteration" value="0" />
 		<!-- Default=1000. Last Iteration of a simulation. -->
-		<param name="lastIteration" value="20" />
+		<param name="lastIteration" value="10" />
 		<!-- Defines which mobility simulation will be used. Currently supported: qsim JDEQSim hermes 
 		Depending on the chosen mobsim, you'll have to add additional config modules to configure the corresponding mobsim.
 		For 'qsim', add a module 'qsim' to the config. -->
 		<param name="mobsim" value="qsim" />
-		<param name="outputDirectory" value="output/OBUAM_V4" />
+		<param name="outputDirectory" value="output/OBUAM_V3" />
 		<!-- Possible values: failIfDirectoryExists, overwriteExistingFiles, deleteDirectoryIfExists -->
 		<param name="overwriteFiles" value="failIfDirectoryExists" />
 		<!-- The type of routing (least cost path) algorithm used, may have the values: [Dijkstra, AStarLandmarks, FastDijkstra, FastAStarLandmarks, SpeedyALT] -->
@@ -754,7 +754,7 @@
 		<!-- Whether or not the search radius is provided as a static radius (search radius interpreted as an absolute distance) or is being calculated dynamically for each trip (search radius interpreted as a percentage of Euclidean trip distance) -->
 		<param name="useDynamicSearchRadius" value="false" />
 		<!-- If the access/egress distance is less than this distance, walk will be the UAM access and egress mode -->
-		<param name="walkDistance" value="500.0" />
+		<param name="walkDistance" value="550.0" />
 	</module>
 	<module name="vehicles" >
 		<param name="vehiclesFile" value="null" />

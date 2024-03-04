@@ -39,12 +39,12 @@
 		<!-- Default=0. First Iteration of a simulation. -->
 		<param name="firstIteration" value="0" />
 		<!-- Default=1000. Last Iteration of a simulation. -->
-		<param name="lastIteration" value="20" />
+		<param name="lastIteration" value="10" />
 		<!-- Defines which mobility simulation will be used. Currently supported: qsim JDEQSim hermes 
 		Depending on the chosen mobsim, you'll have to add additional config modules to configure the corresponding mobsim.
 		For 'qsim', add a module 'qsim' to the config. -->
 		<param name="mobsim" value="qsim" />
-		<param name="outputDirectory" value="output/OBUAM_V4" />
+		<param name="outputDirectory" value="output/Helipads_V1" />
 		<!-- Possible values: failIfDirectoryExists, overwriteExistingFiles, deleteDirectoryIfExists -->
 		<param name="overwriteFiles" value="failIfDirectoryExists" />
 		<!-- The type of routing (least cost path) algorithm used, may have the values: [Dijkstra, AStarLandmarks, FastDijkstra, FastAStarLandmarks, SpeedyALT] -->
@@ -100,7 +100,7 @@
 		<param name="defaultDelimiter" value=";" />
 		<param name="insistingOnDeprecatedConfigVersion" value="true" />
 		<!-- "global" number of threads.  This number is used, e.g., for replanning, but NOT in QSim.  This can typically be set to as many cores as you have available, or possibly even slightly more. -->
-		<param name="numberOfThreads" value="14" />
+		<param name="numberOfThreads" value="12" />
 		<param name="randomSeed" value="4711" />
 	</module>
 	<module name="hermes" >
@@ -139,7 +139,7 @@
 		<!-- Size of the events Queue. Increase for very large scenarios -->
 		<param name="eventsQueueSize" value="51727291" />
 		<!-- Number of threads for parallel events handler. _null_ means the framework decides by itself. 0 is currently not possible. -->
-		<param name="numberOfThreads" value="14" />
+		<param name="numberOfThreads" value="12" />
 		<!-- If enabled, each event handler is assigned to its own thread. Note that enabling this feature disabled the numberOfThreads option! This feature is still experimental! -->
 		<param name="oneThreadPerHandler" value="false" />
 		<!-- If enabled, it is ensured that all events that are created during a time step of the mobility simulation are processed before the next time step is simulated. E.g. neccessary when within-day replanning is used. -->
@@ -588,7 +588,7 @@
 		<!-- Shortens a link in the visualization, i.e. its start and end point are moved into towards the center. Does not affect traffic flow.  -->
 		<param name="nodeOffset" value="0.0" />
 		<!-- Number of threads used for the QSim.  Note that this setting is independent from the "global" threads setting.  In contrast to earlier versions, the non-parallel special version is no longer there. -->
-		<param name="numberOfThreads" value="14" />
+		<param name="numberOfThreads" value="12" />
 		<!-- Boolean. `true': stuck vehicles are removed, aborting the plan; `false': stuck vehicles are forced into the next link. `false' is probably the better choice. -->
 		<param name="removeStuckVehicles" value="false" />
 		<!-- If link dynamics is set as SeepageQ, set a seep mode. Default is bike. -->
