@@ -46,6 +46,20 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.3.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>net.bhl.matsim.uam.run.RunUAMScenario</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 		<extensions>
 			<extension>
@@ -95,6 +109,11 @@
 			<artifactId>junit</artifactId>
 			<version>4.13.1</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-assembly-plugin</artifactId>
+			<version>3.7.1</version>
 		</dependency>
 	</dependencies>
 </project>
