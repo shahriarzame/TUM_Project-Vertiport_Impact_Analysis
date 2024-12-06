@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE uam SYSTEM "src/main/resources/dtd/uam.dtd">
+
+<uam>
+	<stations>
+		<station id="A" name="Alpha" preflighttime="900" postflighttime="300" defaultwaittime="0" link="uam_sl-uam_st_A_ga-uam_st_A_fa" numberOfChargers="99999" chargingSpeed="99999"/>
+		<station id="B" name="Bravo" preflighttime="600" postflighttime="120" defaultwaittime="480" link="uam_sl-uam_st_B_ga-uam_st_B_fa" numberOfChargers="99999" chargingSpeed="99999"/>
+		<station id="C" name="Charlie" preflighttime="300" postflighttime="60" defaultwaittime="0" link="uam_sl-uam_st_C_ga-uam_st_C_fa" numberOfChargers="99999" chargingSpeed="99999"/>
+		<station id="D" name="Delta" preflighttime="150" postflighttime="30" defaultwaittime="300" link="uam_sl-uam_st_D_ga-uam_st_D_fa" numberOfChargers="99999" chargingSpeed="99999"/>
+	</stations>
+	<vehicleTypes>
+		<vehicleType id="S" range="60000" capacity="2" cruisespeed="33.3" verticalspeed="10" boardingtime="30" deboardingtime="30" turnaroundtime="120" maximumCharge="999" energyConsumptionHorizontal="0" energyConsumptionVertical="0"/>
+		<vehicleType id="L" range="30000" capacity="4" cruisespeed="22.2" verticalspeed="10" boardingtime="60" deboardingtime="60" turnaroundtime="300" maximumCharge="999" energyConsumptionHorizontal="0" energyConsumptionVertical="0"/>
+	</vehicleTypes>
+	<vehicles>
+		<vehicle id="A-S-0" type="S" initialstation="A" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="A-S-1" type="S" initialstation="A" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="B-S-0" type="S" initialstation="B" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="B-S-1" type="S" initialstation="B" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="C-S-0" type="S" initialstation="C" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="C-S-1" type="S" initialstation="C" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="D-S-0" type="S" initialstation="D" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="D-S-1" type="S" initialstation="D" starttime="00:00:00" endtime="24:00:00"/>
+		<vehicle id="A-L-0" type="L" initialstation="A" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="A-L-1" type="L" initialstation="A" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="B-L-0" type="L" initialstation="B" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="B-L-1" type="L" initialstation="B" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="C-L-0" type="L" initialstation="C" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="C-L-1" type="L" initialstation="C" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="D-L-0" type="L" initialstation="D" starttime="05:00:00" endtime="21:00:00"/>
+		<vehicle id="D-L-1" type="L" initialstation="D" starttime="05:00:00" endtime="21:00:00"/>
+	</vehicles>
+</uam>
