@@ -1,10 +1,6 @@
 ## Simulation Run
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtu.be/k38rZ8g3aMw" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-</iframe>
+Watch the simulation video at https://www.youtube.com/watch?v=k38rZ8g3aMw
 
 
 # UAM-Extension
