@@ -1,9 +1,9 @@
 ## Simulation Run
-
+[![Simulation Video](src/media/thumbnail.png)](https://www.youtube.com/watch?v=k38rZ8g3aMw)
 Watch the simulation video at https://www.youtube.com/watch?v=k38rZ8g3aMw
 
 ## Workflow
-<img src="UAM_MATSIM.png" alt="Simulation Workflow" width="500"/>
+<img src="src/media/UAM_MATSIM.png" alt="Simulation Workflow" width="500"/>
 
 
 
