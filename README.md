@@ -1,6 +1,6 @@
 ## Click on the thumbnail to watch the simulation video
 [![Simulation Video](src/media/thumbnail.png)](https://www.youtube.com/watch?v=k38rZ8g3aMw)
-Link: https://www.youtube.com/watch?v=k38rZ8g3aMw
+
 
 ## Workflow
 <img src="src/media/UAM_MATSIM.png" alt="Simulation Workflow" width="500"/>
