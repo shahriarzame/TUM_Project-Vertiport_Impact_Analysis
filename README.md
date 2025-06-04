@@ -1,11 +1,51 @@
-## Click on the thumbnail to watch the simulation video
-[![Simulation Video](src/media/thumbnail.png)](https://www.youtube.com/watch?v=k38rZ8g3aMw)
+# Exploring Vertiport Network Structures for Urban Air Mobility
+*A MATSim Case Study in the Munich Metropolitan Region*
 
 
-## Workflow
+<a href="https://www.youtube.com/watch?v=k38rZ8g3aMw" target="_blank">
+  <img src="src/media/thumbnail.png" alt="Simulation Video" width="400"/>
+</a>
+
+
+## Overview
+
+This project investigates the operational and environmental impacts of Urban Air Mobility (UAM) integration into the Munich Metropolitan Region using MATSim, an agent-based transport simulation framework. Specifically, it evaluates how different vertiport network configurations influence mode shift, travel time, congestion, and emissions.
+
+## Objectives
+
+* Assess UAM-induced modal shifts and travel efficiency.
+* Quantify traffic congestion and vehicle kilometers traveled.
+* Evaluate CO₂ and NOₓ emissions from UAM-induced traffic changes.
+* Compare two vertiport network designs: expert-driven (OBUAM) and data-driven (K-means++ clustering).
+
+## Methodology
+
+* Developed base and UAM-enhanced transport scenarios using MATSim.
+* Incorporated public transport and UAM extensions.
+* Simulated travel behavior and emissions using ABIT demand data.
+* Conducted comparative analysis between UAM and non-UAM scenarios.
 <img src="src/media/UAM_MATSIM.png" alt="Simulation Workflow" width="500"/>
 
+## Key Findings
 
+* UAM reduces traditional car trips but induces access/egress car travel.
+* Slight improvements in travel time and passenger kilometers for K-means++ network.
+* Unexpected congestion at vertiport station links due to MATSim’s timestep constraints.
+* Emission reductions observed in rural areas; urban centers like Munich experienced localized increases.
+
+## Tools & Extensions
+
+* [MATSim Core](https://github.com/matsim-org/matsim)
+* [MATSim UAM Extension](https://github.com/shahriarzame/MATSim-UAM)
+* [MATSim Emission Module](https://gitlab.lrz.de/ge94cay)
+* [PT2MATSim](https://github.com/shahriarzame/pt2matsim_2)
+
+## Repository Structure
+
+* `src/`: Java classes for simulation, demand generation, and event handling.
+* `data/`: Input datasets including GTFS, OSM, and demand files.
+* `config/`: Scenario configuration XMLs.
+* `output/`: Results including emissions, congestion, and modal shares.
 
 
 ## Final Report
