@@ -2,6 +2,10 @@
 
 Watch the simulation video at https://www.youtube.com/watch?v=k38rZ8g3aMw
 
+## Workflow
+![Simulation Snapshot](media/UAM_MATSIM.png)
+
+
 ## Final Report
 
 Read the final report at https://drive.google.com/file/d/1lsmqTJhbTIq2jRz2MczWjVC5YzeVWV4r/view?usp=drive_link
