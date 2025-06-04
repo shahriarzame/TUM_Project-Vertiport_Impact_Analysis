@@ -3,7 +3,9 @@
 Watch the simulation video at https://www.youtube.com/watch?v=k38rZ8g3aMw
 
 ## Workflow
-![Simulation Snapshot](UAM_MATSIM.png)
+<img src="UAM_MATSIM.png" alt="Simulation Workflow" width="500"/>
+
+
 
 
 ## Final Report
